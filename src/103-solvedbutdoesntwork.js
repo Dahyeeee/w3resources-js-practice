@@ -18,4 +18,3 @@ function max(num){
 console.log(max(19357));
 console.log(max(5229));
 
-//왜 안되는지 아시는분?

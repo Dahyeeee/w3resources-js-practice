@@ -3,14 +3,11 @@
 
 //
 function find(num){
-    const numStringArr = String(num).split('');
-    const numArr = Array.from(numStringArr,Number);
-    console.log(numArr);
-    const reducedNumArr = numArr.reduce((accu,value)=> accu + value, 0);
-    console.log(reducedNumArr);
-    const oneMore = Array.from(String(reducedNumArr).split(''),Number);
-    const finalOne = oneMore.reduce((accu, value)=>accu + value,0);
-    return finalOne;
+    let numArr = String(num).split('');
+
+    function sum(num){
+        
+    }
 }
 
 console.log(find(45));
